@@ -1,19 +1,19 @@
 <template>
-  <side class="sidebar">
+  <div class="sidebar">
     <!-- Top: Brand + New chat -->
-    <top class="top">
+    <div class="top">
       <h1 class="brand">CHAT A.I+</h1>
 
       <button class="new-btn" @click="createNew">
         <span>+ New chat</span>
       </button>
-    </top>
+    </div>
 
     <!-- Scrollable chat list -->
     <div class="lists">
       <p class="section-title">Your conversations</p>
 
-      <seven v-if="allChats.length" class="chat-list">
+      <div v-if="allChats.length" class="chat-list">
         <div
           v-for="c in allChats"
           :key="c.id"
@@ -29,11 +29,11 @@
             @click.stop="remove(c.id)"
           />
         </div>
-      </seven>
+      </div>
     </div>
 
     <!-- Bottom: settings + profile -->
-    <bottom class="bottom">
+    <div class="bottom">
       <button class="card" type="button">
         <img class="card-icon" :src="settingsIcon" alt="Settings" />
         <span class="card-text">Settings</span>
@@ -43,8 +43,8 @@
         <img class="avatar" :src="avatarIcon" alt="Profile" />
         <span class="card-text">Andrew Neilson</span>
       </div>
-    </bottom>
-  </side>
+    </div>
+  </div>
 </template>
 
 <script setup>
