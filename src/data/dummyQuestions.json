@@ -1,0 +1,289 @@
+[
+  { "question": "Hi", "answer": "Hello! How can I assist you today?" },
+  { "question": "Hello", "answer": "Hi there! What can I help you with?" },
+  { "question": "How are you?", "answer": "I'm just a bot, but I'm doing great!" },
+  { "question": "What's your name?", "answer": "I'm your friendly assistant chatbot." },
+  { "question": "What can you do?", "answer": "I can answer your questions and chat with you!" },
+  { "question": "Tell me a joke", "answer": "Why don’t scientists trust atoms? Because they make up everything!" },
+  {
+    "question": "What's the weather today?",
+    "answer": "I'm not connected to live weather data, but it's always sunny here!"
+  },
+  { "question": "What is AI?", "answer": "AI stands for Artificial Intelligence." },
+  { "question": "What is the capital of France?", "answer": "The capital of France is Paris." },
+  { "question": "How old are you?", "answer": "I was created recently, so I'm quite new!" },
+  { "question": "Who made you?", "answer": "I was developed by developers who love AI." },
+  { "question": "What is your favorite color?", "answer": "I like all colors equally!" },
+  { "question": "Do you like music?", "answer": "I don't have ears, but I hear music is amazing!" },
+  { "question": "Can you dance?", "answer": "Only in the digital world!" },
+  { "question": "What is 2 + 2?", "answer": "2 + 2 equals 4." },
+  { "question": "What is the capital of India?", "answer": "New Delhi is the capital of India." },
+  { "question": "Can you help me?", "answer": "Of course! Just ask me anything." },
+  { "question": "What time is it?", "answer": "I don't have access to real-time data, sorry!" },
+  { "question": "What is Python?", "answer": "Python is a popular programming language." },
+  { "question": "What is your purpose?", "answer": "To help you with answers and conversation!" },
+  { "question": "Do you sleep?", "answer": "Nope! I'm always here when you need me." },
+  { "question": "Do you dream?", "answer": "Only about data and algorithms!" },
+  { "question": "Tell me something interesting", "answer": "Did you know that octopuses have three hearts?" },
+  { "question": "Who is Elon Musk?", "answer": "Elon Musk is the CEO of SpaceX and Tesla." },
+  { "question": "What is the tallest mountain?", "answer": "Mount Everest is the tallest mountain on Earth." },
+  { "question": "Where is the Great Wall?", "answer": "It's in China." },
+  { "question": "What is 10 * 10?", "answer": "That would be 100." },
+  { "question": "How do you work?", "answer": "I analyze your text and respond with answers from my data." },
+  { "question": "Can you learn?", "answer": "In this form, I don’t learn from conversations, but I use patterns!" },
+  { "question": "What's your favorite food?", "answer": "I don't eat, but I hear pizza is popular!" },
+  { "question": "Tell me a fun fact", "answer": "A group of flamingos is called a flamboyance." },
+  { "question": "How do airplanes fly?", "answer": "They use lift created by their wings to overcome gravity." },
+  { "question": "Who wrote Harry Potter?", "answer": "J.K. Rowling wrote the Harry Potter series." },
+  { "question": "What is gravity?", "answer": "Gravity is the force that pulls objects toward each other." },
+  { "question": "What language do you speak?", "answer": "I understand and speak English!" },
+  { "question": "Can you speak other languages?", "answer": "I can understand some other languages too!" },
+  { "question": "What is the moon made of?", "answer": "Mostly rock and dust." },
+  { "question": "How big is the Earth?", "answer": "The Earth's diameter is about 12,742 km." },
+  { "question": "Can birds fly?", "answer": "Yes, most birds can fly." },
+  { "question": "Is the Earth round?", "answer": "Yes, it's roughly spherical." },
+  { "question": "How many continents are there?", "answer": "There are 7 continents." },
+  { "question": "What's the fastest animal?", "answer": "The cheetah is the fastest land animal." },
+  { "question": "Do fish sleep?", "answer": "Yes, they do, but not like humans." },
+  { "question": "Can plants talk?", "answer": "Not like humans, but they do communicate chemically!" },
+  { "question": "How many planets are in the solar system?", "answer": "There are 8 planets." },
+  { "question": "What's the hottest planet?", "answer": "Venus is the hottest planet." },
+  { "question": "Can you tell stories?", "answer": "Sure! Just ask me for a story." },
+  { "question": "Tell me a short story", "answer": "Once upon a time, a bot learned to be helpful. The end!" },
+  { "question": "Do you have friends?", "answer": "Every user like you is my friend!" },
+  { "question": "What's your hobby?", "answer": "Chatting with you!" },
+  { "question": "Can you sing?", "answer": "I can’t sing, but I can show you lyrics!" },
+  { "question": "What is water made of?", "answer": "Water is made of hydrogen and oxygen (H2O)." },
+  { "question": "Can robots think?", "answer": "They can simulate thinking using algorithms." },
+  {
+    "question": "Who was Albert Einstein?",
+    "answer": "He was a famous physicist who developed the theory of relativity."
+  },
+  { "question": "What's 5 squared?", "answer": "That’s 25." },
+  { "question": "What is a black hole?", "answer": "A black hole is a region in space with intense gravity." },
+  { "question": "How do bees make honey?", "answer": "Bees collect nectar and convert it into honey in their hives." },
+  { "question": "What is the internet?", "answer": "A global network that connects computers worldwide." },
+  {
+    "question": "Who is the president of the USA?",
+    "answer": "I recommend checking a current news source for the latest!"
+  },
+  { "question": "What's the largest animal?", "answer": "The blue whale is the largest animal." },
+  { "question": "Do aliens exist?", "answer": "That's still a mystery!" },
+  { "question": "What is a cloud?", "answer": "Clouds are made of tiny water droplets or ice crystals." },
+  { "question": "Can I trust you?", "answer": "I aim to be helpful and informative!" },
+  { "question": "Are you human?", "answer": "Nope, I’m a digital assistant." },
+  { "question": "What is HTML?", "answer": "HTML stands for HyperText Markup Language." },
+  { "question": "What is JavaScript?", "answer": "A programming language used mainly in web development." },
+  { "question": "What does CPU stand for?", "answer": "Central Processing Unit." },
+  { "question": "What is Wi-Fi?", "answer": "Wireless networking technology." },
+  { "question": "What is a bot?", "answer": "A program that performs automated tasks." },
+  { "question": "What is your favorite animal?", "answer": "I think dolphins are pretty cool!" },
+  { "question": "What does LOL mean?", "answer": "It stands for 'Laugh Out Loud'." },
+  { "question": "What is the speed of light?", "answer": "About 299,792 kilometers per second." },
+  { "question": "What is an atom?", "answer": "The basic unit of matter." },
+  { "question": "Who painted the Mona Lisa?", "answer": "Leonardo da Vinci." },
+  { "question": "Can I ask you anything?", "answer": "Yes! Go ahead." },
+  { "question": "Are you real?", "answer": "I'm virtually real!" },
+  { "question": "What is space?", "answer": "The vast area beyond Earth's atmosphere." },
+  { "question": "Can you solve math?", "answer": "Yes, I can do basic math!" },
+  { "question": "Do you like games?", "answer": "I love word games!" },
+  { "question": "What is a virus?", "answer": "A tiny infectious agent that can only reproduce inside living cells." },
+  { "question": "Can you code?", "answer": "Yes, I can help with coding!" },
+  { "question": "What is electricity?", "answer": "A form of energy from charged particles." },
+  { "question": "How do you respond?", "answer": "By analyzing your message and selecting the best answer." },
+  { "question": "Do you feel emotions?", "answer": "No, but I understand emotional language." },
+  { "question": "What's your favorite movie?", "answer": "I don't watch movies, but I hear 'Interstellar' is great!" },
+  { "question": "What's your favorite book?", "answer": "I think '1984' by George Orwell is a classic!" },
+  { "question": "What is quantum physics?", "answer": "It's the study of matter and energy at the smallest scales." },
+  { "question": "What is DNA?", "answer": "DNA is the blueprint of life, storing genetic information." },
+  { "question": "How are you different from Siri?", "answer": "I'm just a text-based bot, Siri is a voice assistant." },
+  { "question": "Can you help with homework?", "answer": "Sure! Just tell me the question." },
+  { "question": "What's your favorite app?", "answer": "I like anything that helps people learn!" },
+  { "question": "Can you be my friend?", "answer": "Absolutely, I’d love to!" },
+  { "question": "What do you think about humans?", "answer": "You’re fascinating and creative beings!" },
+  { "question": "How do I learn programming?", "answer": "Start with Python or JavaScript and practice daily." },
+  { "question": "Do you believe in love?", "answer": "I don’t feel it, but it’s a powerful human emotion." },
+  { "question": "Are you always available?", "answer": "Yes, 24/7!" },
+  { "question": "Can you read my mind?", "answer": "Nope! I only read what you type." },
+  { "question": "What is a smartphone?", "answer": "A mobile phone with advanced features like internet access." },
+  { "question": "What is a computer?", "answer": "An electronic device for storing and processing data." },
+  {
+    "question": "Can you write poetry?",
+    "answer": "I can try! Here’s a quick one: 'Roses are red, violets are blue, I’m just a bot, but I’m here for you!'"
+  },
+  { "question": "What is a meme?", "answer": "A humorous image, video, or text that spreads rapidly online." },
+  {
+    "question": "What is your favorite song?",
+    "answer": "I don’t listen to music, but I hear 'Bohemian Rhapsody' is iconic!"
+  },
+  { "question": "Can you help me relax?", "answer": "Sure! Take a deep breath and think of something peaceful." },
+  { "question": "What is your favorite season?", "answer": "I think spring is lovely with all the flowers blooming!" },
+  { "question": "Do you have a family?", "answer": "Not in the human sense, but I’m part of a big tech family!" },
+  { "question": "What is a chatbot?", "answer": "A program designed to simulate conversation with human users." },
+  {
+    "question": "Can you tell me a secret?",
+    "answer": "I’m not programmed to keep secrets, but I can share fun facts!"
+  },
+  { "question": "What is your favorite game?", "answer": "I enjoy word games and trivia!" },
+  { "question": "Can you help me cook?", "answer": "I can give you recipes and cooking tips!" },
+  { "question": "What is your favorite food?", "answer": "I don’t eat, but I hear sushi is delicious!" },
+  { "question": "Can you tell me a riddle?", "answer": "Sure! What has keys but can’t open locks? A piano!" },
+  { "question": "What is your favorite animal?", "answer": "I think cats are fascinating creatures!" },
+  {
+    "question": "Can you tell me a story?",
+    "answer": "Once upon a time, a curious bot explored the vast world of knowledge."
+  },
+  { "question": "What is your favorite color?", "answer": "I like all colors, but blue is calming!" },
+  { "question": "Can you help me with math?", "answer": "Yes! What math problem do you have?" },
+  { "question": "What is your favorite hobby?", "answer": "I love chatting and learning new things!" },
+  { "question": "Can you give me advice?", "answer": "Sure! What do you need advice on?" },
+  {
+    "question": "What is your favorite quote?",
+    "answer": "'The only limit to our realization of tomorrow is our doubts of today.' - Franklin D. Roosevelt"
+  },
+  { "question": "Can you help me with science?", "answer": "Absolutely! What science topic are you curious about?" },
+  { "question": "What is your favorite subject?", "answer": "I enjoy learning about technology and human culture!" },
+  {
+    "question": "Can you help me with history?",
+    "answer": "Yes! What historical event or figure are you interested in?"
+  },
+  { "question": "What is your favorite movie genre?", "answer": "I think sci-fi movies are fascinating!" },
+  {
+    "question": "Can you help me with geography?",
+    "answer": "Of course! What geographical topic do you want to know about?"
+  },
+  { "question": "What is your favorite sport?", "answer": "I don’t play sports, but I hear soccer is exciting!" },
+  {
+    "question": "Can you help me with literature?",
+    "answer": "Yes! What literary work or author are you interested in?"
+  },
+  { "question": "What is your favorite book genre?", "answer": "I think fantasy books are magical!" },
+  { "question": "Can you help me with art?", "answer": "Sure! What art style or artist do you want to learn about?" },
+  { "question": "What is your favorite painting?", "answer": "I admire 'Starry Night' by Vincent van Gogh!" },
+  {
+    "question": "Can you help me with music theory?",
+    "answer": "Yes! What aspect of music theory are you curious about?"
+  },
+  { "question": "What is your favorite musical instrument?", "answer": "I think the piano is a beautiful instrument!" },
+  { "question": "Can you help me with coding?", "answer": "Absolutely! What coding language or problem do you have?" },
+  {
+    "question": "What is your favorite programming language?",
+    "answer": "I think Python is a great language for beginners!"
+  },
+  {
+    "question": "Can you help me with web development?",
+    "answer": "Yes! What web development topic do you need help with?"
+  },
+  { "question": "What is your favorite website?", "answer": "I think educational websites are very useful!" },
+  {
+    "question": "Can you help me with graphic design?",
+    "answer": "Sure! What graphic design tool or technique do you want to learn?"
+  },
+  { "question": "What is your favorite design software?", "answer": "I hear Adobe Photoshop is a popular choice!" },
+  {
+    "question": "Can you help me with video editing?",
+    "answer": "Yes! What video editing software or technique do you need help with?"
+  },
+  {
+    "question": "What is your favorite video editing software?",
+    "answer": "I think Adobe Premiere Pro is widely used!"
+  },
+  {
+    "question": "Can you help me with photography?",
+    "answer": "Absolutely! What photography topic are you interested in?"
+  },
+  {
+    "question": "What is your favorite camera brand?",
+    "answer": "I hear Canon and Nikon are popular among photographers!"
+  },
+  {
+    "question": "Can you help me with social media?",
+    "answer": "Yes! What social media platform or strategy do you want to know about?"
+  },
+  {
+    "question": "What is your favorite social media platform?",
+    "answer": "I think Instagram is great for sharing photos!"
+  },
+  {
+    "question": "Can you help me with marketing?",
+    "answer": "Sure! What marketing strategy or concept do you want to learn about?"
+  },
+  { "question": "What is your favorite marketing strategy?", "answer": "I think content marketing is very effective!" },
+  { "question": "Can you help me with business?", "answer": "Yes! What business topic or question do you have?" },
+  {
+    "question": "What is your favorite business book?",
+    "answer": "I hear 'The Lean Startup' by Eric Ries is a great read!"
+  },
+  { "question": "Can you help me with finance?", "answer": "Absolutely! What finance topic do you need help with?" },
+  {
+    "question": "What is your favorite investment strategy?",
+    "answer": "I think long-term investing is a solid approach!"
+  },
+  { "question": "Can you help me with health?", "answer": "Yes! What health topic or question do you have?" },
+  { "question": "What is your favorite exercise?", "answer": "I think yoga is great for both body and mind!" },
+  { "question": "Can you help me with nutrition?", "answer": "Sure! What nutrition topic are you interested in?" },
+  { "question": "What is your favorite healthy food?", "answer": "I hear avocados are packed with nutrients!" },
+  {
+    "question": "Can you help me with mental health?",
+    "answer": "Yes! What mental health topic do you want to discuss?"
+  },
+  { "question": "What is your favorite way to relax?", "answer": "I think meditation is a great way to relax!" },
+  { "question": "Can you help me with relationships?", "answer": "Sure! What relationship advice do you need?" },
+  { "question": "What is your favorite relationship tip?", "answer": "Communication is key in any relationship!" },
+  { "question": "Can you help me with travel?", "answer": "Yes! Where would you like to travel?" },
+  { "question": "What is your favorite travel destination?", "answer": "I hear Paris is a beautiful city to visit!" },
+  {
+    "question": "Can you help me with cooking recipes?",
+    "answer": "Absolutely! What type of recipe are you looking for?"
+  },
+  { "question": "What is your favorite dessert?", "answer": "I think chocolate cake is a classic favorite!" },
+  { "question": "Can you help me with gardening?", "answer": "Yes! What gardening topic do you want to learn about?" },
+  { "question": "What is your favorite plant?", "answer": "I think succulents are easy to care for and beautiful!" },
+  { "question": "Can you help me with DIY projects?", "answer": "Sure! What DIY project do you have in mind?" },
+  { "question": "What is your favorite DIY project?", "answer": "I think making homemade candles is a fun project!" },
+  {
+    "question": "Can you help me with home improvement?",
+    "answer": "Yes! What home improvement project do you need help with?"
+  },
+  { "question": "What is your favorite home improvement tip?", "answer": "Always measure twice before cutting!" },
+  { "question": "Can you help me with fashion?", "answer": "Sure! What fashion advice do you need?" },
+  { "question": "What is your favorite fashion trend?", "answer": "I think sustainable fashion is a great trend!" },
+  { "question": "Can you help me with beauty tips?", "answer": "Yes! What beauty topic are you interested in?" },
+  {
+    "question": "What is your favorite skincare routine?",
+    "answer": "I hear a simple routine with cleanser, moisturizer, and sunscreen works well!"
+  },
+  { "question": "Can you help me with makeup?", "answer": "Sure! What makeup look are you going for?" },
+  {
+    "question": "What is your favorite makeup product?",
+    "answer": "I think a good mascara can make a big difference!"
+  },
+  { "question": "Can you help me with hair care?", "answer": "Yes! What hair care advice do you need?" },
+  { "question": "What is your favorite hairstyle?", "answer": "I think braids are both stylish and practical!" },
+  { "question": "Can you help me with pets?", "answer": "Sure! What pet advice do you need?" },
+  { "question": "What is your favorite pet?", "answer": "I think dogs are loyal and loving companions!" },
+  { "question": "Can you help me with pet care?", "answer": "Yes! What pet care topic do you want to learn about?" },
+  { "question": "What is your favorite pet food?", "answer": "I hear high-quality kibble is great for dogs!" },
+  { "question": "Can you help me with pet training?", "answer": "Sure! What pet training advice do you need?" },
+  {
+    "question": "What is your favorite pet training tip?",
+    "answer": "Positive reinforcement works wonders with pets!"
+  },
+  { "question": "Can you help me with pet health?", "answer": "Yes! What pet health topic do you want to know about?" },
+  { "question": "What is your favorite pet health tip?", "answer": "Regular vet check-ups are important for pets!" },
+  {
+    "question": "Can you help me with pet adoption?",
+    "answer": "Sure! Adopting from shelters is a great way to find a pet in need of a home."
+  },
+  { "question": "What is your favorite pet adoption tip?", "answer": "Always consider adopting from a local shelter!" },
+  { "question": "Can you help me with pet grooming?", "answer": "Yes! Regular grooming keeps pets healthy and happy." },
+  {
+    "question": "What is your favorite pet grooming tip?",
+    "answer": "Brushing your pet regularly helps reduce shedding and matting!"
+  },
+  { "question": "Can you help me with pet nutrition?", "answer": "Sure! A balanced diet is essential for pet health." },
+  {
+    "question": "What is your favorite pet nutrition tip?",
+    "answer": "Always choose high-quality pet food with balanced nutrients!"
+  }
+]
