@@ -33,10 +33,10 @@ export async function answerFor(input) {
   const q = (input || '').trim().toLowerCase();
   if (!q) return DEFAULT;
 
-  const results = fuse.search(q);
-  const hit = results[0];
-  if (hit && hit.score <= CUTOFF) {
-    return hit.item.answer;
-  }
+ const results = fuse.search(q);
+const hit = results[0];
+if (!hit || hit.score > CUTOFF) {
   return DEFAULT;
+}
+return hit.item.answer;
 }
