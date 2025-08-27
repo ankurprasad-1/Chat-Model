@@ -1,35 +1,42 @@
-import fs from 'fs'; //fs for file ystem opeations
+// server/answerEngine.js
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-//URL turns into file path string
+import Fuse from 'fuse.js';
 
 const __filename = fileURLToPath(import.meta.url);
-//get name of directory from the path, assigned to filename
 const __dirname = path.dirname(__filename);
-//directory name from the file path
-const data_Path = path.join(__dirname, 'dummyQuestions.json');
+
+const dataPath = path.join(__dirname, 'dummyQuestions.json');
 let QA = [];
-//Q/A array
 try {
-  const raw = fs.readFileSync(data_Path, 'utf8');
-  //read the file synchronously, utf8 is the encoding
+  const raw = fs.readFileSync(dataPath, 'utf8');
   QA = JSON.parse(raw);
 } catch {
   QA = [];
 }
 
+//replace w/ fuse from utils/answerEngine.js
+const fuse = new Fuse(QA, {
+  keys: ['question'],
+  includeScore: true,
+  threshold: 0.5,
+  ignoreLocation: true,
+  distance: 100,
+});
+
+const CUTOFF = 0.4;
+//const CUTOFF = 0.7
+const DEFAULT = "I cannot answer that. If this is working then, fuse.js is working. Please try asking something else";
+
 export async function answerFor(input) {
-    //function to find the answer based on input question from prompt
-  const question = (input || '').trim().toLowerCase();
-  if (!question) return "I am unable to answer that currently, please try again.";
+  const q = (input || '').trim().toLowerCase();
+  if (!q) return DEFAULT;
 
-  // if exact answer based on
-  const exact = QA.find(x => (x.question || '').toLowerCase() === question);
-  if (exact) return exact.answer;
-
-  // loose contains
-  const loose = QA.find(x => (x.question || '').toLowerCase().includes(question) || question.includes((x.question || '').toLowerCase()));
-  if (loose) return loose.answer;
-
-  return "I cannot answer that. Please try asking something else.";
+  const results = fuse.search(q);
+  const hit = results[0];
+  if (hit && hit.score <= CUTOFF) {
+    return hit.item.answer;
+  }
+  return DEFAULT;
 }
